@@ -179,7 +179,7 @@ const app = {
         $$('.song-item .song-pic').forEach(function (picture, index) {
             picture.style.background = `url(./img/${_this.currentPlayList}/song${index + 1}.jpg) no-repeat center/cover`;
         });
-        cd.style.backgroundImage = `url(./img/${this.currentPlayList}/song1.jpg)`
+        cd.style.backgroundImage = `url(./img/${this.currentPlayList}/song${_this.currentIndex + 1}.jpg)`
     },
 
     handleEvents: function () {
@@ -304,6 +304,7 @@ const app = {
             }
             _this.render();
             _this.loadCurrentSong();
+            audio.play();
         }
     },
     next: function () {
