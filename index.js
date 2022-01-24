@@ -91,7 +91,7 @@ const app = {
 
         vpop: [
             {
-                name: "Biết Tìm Đấu",
+                name: "Biết Tìm Đâu",
                 image: "./img/vpop/song1.jpg",
                 author: "Shane Filan",
                 path: "./music/vpop/song1.mp3"
