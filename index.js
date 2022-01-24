@@ -48,43 +48,43 @@ const app = {
             {
                 name: "Bad Lier",
                 image: "./img/us_uk/song4.jpg",
-                author: "Shane Filan",
+                author: "Imagine Dragons",
                 path: "./music/us_uk/song4.mp3"
             },
             {
                 name: "Everything I Need",
                 image: "./img/us_uk/song5.jpg",
-                author: "Shane Filan",
+                author: "Skylar Grey",
                 path: "./music/us_uk/song5.mp3"
             },
             {
                 name: "I Love You 3000",
                 image: "./img/us_uk/song6.jpg",
-                author: "Shane Filan",
+                author: "Stephanie Poetri",
                 path: "./music/us_uk/song6.mp3"
             },
             {
                 name: "Im Comming Home",
                 image: "./img/us_uk/song7.jpg",
-                author: "Shane Filan",
+                author: "Skylar Grey",
                 path: "./music/us_uk/song7.mp3"
             },
             {
                 name: "Something Just Like This",
                 image: "./img/us_uk/song8.jpg",
-                author: "Shane Filan",
+                author: "The Chainsmokers & Coldplay",
                 path: "./music/us_uk/song8.mp3"
             },
             {
                 name: "Umbrella",
                 image: "./img/us_uk/song9.jpg",
-                author: "Shane Filan",
+                author: "Rihanna",
                 path: "./music/us_uk/song9.mp3"
             },
             {
                 name: "Let Me Down Slowly",
                 image: "./img/us_uk/song10.jpg",
-                author: "Shane Filan",
+                author: "Alec Benjamin",
                 path: "./music/us_uk/song10.mp3"
             },
         ],
@@ -93,61 +93,61 @@ const app = {
             {
                 name: "Biết Tìm Đâu",
                 image: "./img/vpop/song1.jpg",
-                author: "Shane Filan",
+                author: "Duy Mạnh",
                 path: "./music/vpop/song1.mp3"
             },
             {
                 name: "Không Bằng",
                 image: "./img/vpop/song2.jpg",
-                author: "Dylan Matthew",
+                author: "Na",
                 path: "./music/vpop/song2.mp3"
             },
             {
                 name: "Là Ai Từ Bỏ, Là Ai Vô Tình",
                 image: "./img/vpop/song3.jpg",
-                author: "Sasha Sloan",
+                author: "Hương Ly",
                 path: "./music/vpop/song3.mp3"
             },
             {
                 name: "Nợ Ai Đó Lời Xin Lỗi",
                 image: "./img/vpop/song4.jpg",
-                author: "Shane Filan",
+                author: "Bozitt",
                 path: "./music/vpop/song4.mp3"
             },
             {
                 name: "Nụ Cười 18 20",
                 image: "./img/vpop/song5.jpg",
-                author: "Shane Filan",
+                author: "Doãn Hiết",
                 path: "./music/vpop/song5.mp3"
             },
             {
                 name: "Những Ngày Vắng Em",
                 image: "./img/vpop/song6.jpg",
-                author: "Shane Filan",
+                author: "Thái Đinh",
                 path: "./music/vpop/song6.mp3"
             },
             {
                 name: "Tướng Quân",
                 image: "./img/vpop/song7.jpg",
-                author: "Shane Filan",
+                author: "Nhật Phong",
                 path: "./music/vpop/song7.mp3"
             },
             {
                 name: "Từ Ngày Em Đến",
                 image: "./img/vpop/song8.jpg",
-                author: "Shane Filan",
+                author: "DaLab",
                 path: "./music/vpop/song8.mp3"
             },
             {
                 name: "Thương Em Đến Già",
                 image: "./img/vpop/song9.jpg",
-                author: "Shane Filan",
+                author: "Lê Bảo Bình",
                 path: "./music/vpop/song9.mp3"
             },
             {
                 name: "Đế Vương",
                 image: "./img/vpop/song10.jpg",
-                author: "Shane Filan",
+                author: "Đình Dũng",
                 path: "./music/vpop/song10.mp3"
             },
         ]
@@ -377,4 +377,3 @@ const app = {
 }
 
 app.start();
-
