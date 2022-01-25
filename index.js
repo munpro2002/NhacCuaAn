@@ -382,4 +382,8 @@ const app = {
 
 }
 
+<<<<<<< HEAD
 app.start();
+=======
+app.start();
+>>>>>>> 2f22da832f8b2c789af9ddb3b071d537688d78e6
