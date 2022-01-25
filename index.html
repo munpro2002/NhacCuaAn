@@ -46,7 +46,15 @@
                 </div>
             </div>
 
-            <input type="range" name="music-range" class="display-music-range" value="0" step="1" min="0" max="100">
+            <input type="range" name="music-range" class="range-input display-music-range" value="0" step="1" min="0"
+                max="100">
+            <div class="volume-control">
+                <div class="volume-btn">
+                    <i class="fas fa-volume-up"></i>
+                </div>
+                <input type="range" name="volum-range" class="range-input display-volume-range" value="100" step="1"
+                    min="0" max="100">
+            </div>
             <audio id="audio" src=""></audio>
         </div>
 
