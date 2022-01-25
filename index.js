@@ -13,6 +13,7 @@ const randomBtn = $('.btn-random');
 const repeatBtn = $('.btn-repeat');
 const songList = $('.song-list');
 const musicCategoryBtn = $('.music-category');
+const volume = $('.display-volume-range');
 
 const PlAYER_STORAGE_KEY = 'Host-player';
 
@@ -216,6 +217,7 @@ const app = {
                 audio.pause();
             } else {
                 audio.play();
+                audio.volume = 1;
             }
         }
 
@@ -241,6 +243,11 @@ const app = {
         progress.onchange = function (e) {
             const seekTime = e.target.value / 100 * audio.duration;
             audio.currentTime = seekTime;
+        }
+
+        volume.onchange = function (e) {
+            const volumeTarget = e.target.value;
+            audio.volume = volumeTarget / 100;
         }
 
         nextBtn.onclick = function () {
@@ -381,9 +388,4 @@ const app = {
     }
 
 }
-
-<<<<<<< HEAD
 app.start();
-=======
-app.start();
->>>>>>> 2f22da832f8b2c789af9ddb3b071d537688d78e6
