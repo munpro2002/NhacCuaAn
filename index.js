@@ -48,43 +48,43 @@ const app = {
             {
                 name: "Bad Lier",
                 image: "./img/us_uk/song4.jpg",
-                author: "Shane Filan",
+                author: "Imagine Dragons",
                 path: "./music/us_uk/song4.mp3"
             },
             {
                 name: "Everything I Need",
                 image: "./img/us_uk/song5.jpg",
-                author: "Shane Filan",
+                author: "Skylar Grey",
                 path: "./music/us_uk/song5.mp3"
             },
             {
                 name: "I Love You 3000",
                 image: "./img/us_uk/song6.jpg",
-                author: "Shane Filan",
+                author: "Stephanie Poetri",
                 path: "./music/us_uk/song6.mp3"
             },
             {
                 name: "Im Comming Home",
                 image: "./img/us_uk/song7.jpg",
-                author: "Shane Filan",
+                author: "Skylar Grey",
                 path: "./music/us_uk/song7.mp3"
             },
             {
                 name: "Something Just Like This",
                 image: "./img/us_uk/song8.jpg",
-                author: "Shane Filan",
+                author: "The Chainsmokers & Coldplay",
                 path: "./music/us_uk/song8.mp3"
             },
             {
                 name: "Umbrella",
                 image: "./img/us_uk/song9.jpg",
-                author: "Shane Filan",
+                author: "Rihanna",
                 path: "./music/us_uk/song9.mp3"
             },
             {
                 name: "Let Me Down Slowly",
                 image: "./img/us_uk/song10.jpg",
-                author: "Shane Filan",
+                author: "Alec Benjamin",
                 path: "./music/us_uk/song10.mp3"
             },
         ],
@@ -149,6 +149,12 @@ const app = {
                 image: "./img/vpop/song10.jpg",
                 author: "Đình Dũng",
                 path: "./music/vpop/song10.mp3"
+            },
+            {
+                name: "Ai Chung Tình Được Mãi",
+                image: "./img/vpop/song11.jpg",
+                author: "Đinh Tùng Huy",
+                path: "./music/vpop/song11.mp3"
             },
         ]
     },
